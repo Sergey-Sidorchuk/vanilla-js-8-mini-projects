@@ -1,0 +1,75 @@
+html,
+body {
+  margin: 0px;
+  height: 100%;
+  background-image: url(https://cdn.pixabay.com/photo/2014/12/08/16/44/keyboard-561124_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  padding: 20px;
+  padding-top: 30px;
+  max-width: 100%;
+  max-height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.back-link {
+  position: absolute;
+  top: 15px;
+  left: 36px;
+}
+
+.container-title {
+  margin-top: 0;
+  color: rgb(250, 250, 250);
+}
+
+.grid {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0.5rem;
+  margin: 0.5rem 0;
+  list-style: none;
+  padding: 20px;
+}
+
+.container-item {
+  text-align: center;
+  border: 2px solid rgb(248, 114, 5);
+  border-radius: 5px;
+}
+
+.container-image {
+  width: 100%;
+  height: 350px;
+  border-radius: 4px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.container-link {
+  display: grid;
+  padding-bottom: 5px;
+  text-decoration: none;
+  backdrop-filter: blur(50px);
+  border-radius: 7px;
+}
+
+.container-header {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+span {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(250, 250, 250);
+}
