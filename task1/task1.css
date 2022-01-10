@@ -64,12 +64,12 @@ body {
   transition: opacity 0.3s ease-in 0.4s;
 }
 
-.back-link{
+.back-link {
   position: absolute;
   top: 15px;
   left: 36px;
 }
-.back-link a{
+.back-link a {
   font-family: "Muli", sans-serif;
   font-size: 20px;
   color: black;

@@ -6,8 +6,8 @@
   font-weight: 700;
 }
 
-body{
-    background: linear-gradient(90deg, #afd9f7,#f0f2ff);
+body {
+  background: linear-gradient(90deg, #afd9f7, #f0f2ff);
 }
 
 .container {
@@ -17,19 +17,19 @@ body{
   margin-top: 150px;
 }
 
-.back-link{
-    position: absolute;
-    top: 15px;
-    left: 36px;
-  }
-  
-  .back-link a{
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    color: rgb(30, 3, 128);
-    text-decoration: none;
-  }
+.back-link {
+  position: absolute;
+  top: 15px;
+  left: 36px;
+}
+
+.back-link a {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: rgb(30, 3, 128);
+  text-decoration: none;
+}
 
 .timer {
   display: flex;
@@ -70,7 +70,7 @@ body{
 .button {
   width: 150px;
   text-align: center;
-  border: 1px solid #2987be;;
+  border: 1px solid #2987be;
   background-color: rgb(247, 244, 241);
   border-radius: 10px;
   font-size: 18px;
@@ -97,7 +97,7 @@ body{
   background-color: none;
   color: darkgray;
   border: none;
-   cursor: not-allowed;
+  cursor: not-allowed;
 }
 .results__block {
   position: absolute;

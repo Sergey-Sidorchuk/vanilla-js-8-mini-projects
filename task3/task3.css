@@ -95,13 +95,13 @@ button:focus {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
-.back-link{
+.back-link {
   position: absolute;
   top: 20px;
   left: 36px;
   z-index: 99;
 }
-.back-link a{
+.back-link a {
   font-family: "Muli", sans-serif;
   font-size: 20px;
   color: black;

@@ -73,12 +73,12 @@ body {
   border-top: 2px solid #f37907;
 }
 
-.back-link{
+.back-link {
   position: absolute;
   top: 15px;
   left: 36px;
 }
-.back-link a{
+.back-link a {
   font-family: "Muli", sans-serif;
   font-size: 20px;
   color: black;
